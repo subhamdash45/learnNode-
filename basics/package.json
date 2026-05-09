@@ -1,6 +1,11 @@
 {
+  "scripts": {
+    "dev": "nodemon --watch learnExpress.js --ext js learnExpress.js"
+  },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "mongodb": "^7.2.0"
+    "express": "^5.2.1",
+    "mongodb": "^7.2.0",
+    "nodemon": "^3.1.14"
   }
 }
