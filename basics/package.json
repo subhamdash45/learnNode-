@@ -1,11 +1,16 @@
 {
   "scripts": {
-    "dev": "nodemon --watch learnExpress.js --ext js learnExpress.js"
+    "dev": "nodemon --watch devTinder/index.js --ext js devTinder/index.js",
+    "dev:express": "nodemon --watch learnExpress.js --ext js learnExpress.js"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.5",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "mongodb": "^7.2.0",
+    "mongoose": "^9.6.2",
     "nodemon": "^3.1.14"
   }
 }
